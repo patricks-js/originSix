@@ -28,3 +28,15 @@ window.addEventListener('scroll', ()=> {
         header.classList.remove('scroll')
     }
 })
+
+// Carrousel swiper
+const swiper = new Swiper('.swiper', {
+    slidePerView: 1,
+    loop: true,
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
