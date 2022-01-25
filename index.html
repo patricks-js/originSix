@@ -11,10 +11,15 @@
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
     <!-- Styles -->
+    <link rel="preload" href="preload.js">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="assets/fonts/style.css" />
   </head>
+  
   <body>
+      <div class="container-load">
+          <div class="load" ></div>
+    </div>
     <!-- Header -->
     <header id="header">
       <nav class="container" id="navigation">
@@ -276,5 +281,6 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
+    <script src="preload.js"></script>
   </body>
 </html>
